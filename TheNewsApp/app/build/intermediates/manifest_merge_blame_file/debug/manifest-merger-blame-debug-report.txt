@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newsprojectpractice"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.newsprojectpractice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.newsprojectpractice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:8:5-30:19
+21        android:allowBackup="true"
+21-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\4a7b3a5c40e2994863d1899a8d3751aa\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.NewsProjectPractice" >
+32-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:16:9-57
+33        <activity
+33-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="com.example.newsprojectpractice.ui.NewsActivity"
+34-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:19:13-44
+35            android:exported="true" >
+35-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:22:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:23:17-69
+37-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:24:17-77
+39-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:27:9-29:57
+44            android:name="preloaded_fonts"
+44-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:28:13-43
+45            android:resource="@array/preloaded_fonts" />
+45-->C:\Users\Lenovo\Desktop\CollegeRelated\Sem4_Sisfo\PemMob\TheNewsApp\app\src\main\AndroidManifest.xml:29:13-54
+46
+47        <service
+47-->[androidx.room:room-runtime:2.6.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3b7a9cc4b4334ecea962cd5dae1e6d3f\transformed\room-runtime-2.6.0\AndroidManifest.xml:24:9-28:63
+48            android:name="androidx.room.MultiInstanceInvalidationService"
+48-->[androidx.room:room-runtime:2.6.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3b7a9cc4b4334ecea962cd5dae1e6d3f\transformed\room-runtime-2.6.0\AndroidManifest.xml:25:13-74
+49            android:directBootAware="true"
+49-->[androidx.room:room-runtime:2.6.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3b7a9cc4b4334ecea962cd5dae1e6d3f\transformed\room-runtime-2.6.0\AndroidManifest.xml:26:13-43
+50            android:exported="false" />
+50-->[androidx.room:room-runtime:2.6.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3b7a9cc4b4334ecea962cd5dae1e6d3f\transformed\room-runtime-2.6.0\AndroidManifest.xml:27:13-37
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\82a32abe5a0c7c3d15e92a7352491ea4\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.newsprojectpractice.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\228ad0c074bbb4355a429ac9168b002c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3f1a61e4738712a159f1712af0f6c6b8\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3f1a61e4738712a159f1712af0f6c6b8\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\3f1a61e4738712a159f1712af0f6c6b8\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lenovo\.gradle\caches\8.11.1\transforms\35a5079efa220b200dd91f4603da4193\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>
